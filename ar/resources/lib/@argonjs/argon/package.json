@@ -1,0 +1,338 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@argonjs/argon@^1.2.0-16",
+        "scope": "@argonjs",
+        "escapedName": "@argonjs%2fargon",
+        "name": "@argonjs/argon",
+        "rawSpec": "^1.2.0-16",
+        "spec": ">=1.2.0-16 <2.0.0",
+        "type": "range"
+      },
+      "/Users/simba/Desktop/samples"
+    ]
+  ],
+  "_from": "@argonjs/argon@>=1.2.0-16 <2.0.0",
+  "_id": "@argonjs/argon@1.3.6",
+  "_inCache": true,
+  "_location": "/@argonjs/argon",
+  "_nodeVersion": "6.9.2",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/argon-1.3.6.tgz_1497875651570_0.39972692797891796"
+  },
+  "_npmUser": {
+    "name": "kimsiva",
+    "email": "kspreen@gmail.com"
+  },
+  "_npmVersion": "3.10.9",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@argonjs/argon@^1.2.0-16",
+    "scope": "@argonjs",
+    "escapedName": "@argonjs%2fargon",
+    "name": "@argonjs/argon",
+    "rawSpec": "^1.2.0-16",
+    "spec": ">=1.2.0-16 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@argonjs/argon/-/argon-1.3.6.tgz",
+  "_shasum": "77ef6def91b6f9fc1018ef7ebd2ef1fc6fdfb5cb",
+  "_shrinkwrap": null,
+  "_spec": "@argonjs/argon@^1.2.0-16",
+  "_where": "/Users/simba/Desktop/samples",
+  "browser": "dist/argon.js",
+  "bugs": {
+    "url": "https://github.com/argonjs/argon/issues"
+  },
+  "dependencies": {
+    "aurelia-dependency-injection": "^1.0.0"
+  },
+  "description": "An open-standards augmented reality platform for the web. Initially created to supporting creating AR web applications for [the Argon4 browser](https://app.argonjs.io), argon.js is now aimed at supporting AR in any web browser, using whatever capabilities",
+  "devDependencies": {
+    "@types/chai": "^3.4.29",
+    "@types/mocha": "^2.2.28",
+    "@types/systemjs": "^0.18.27",
+    "@types/webvr-api": "0.0.30",
+    "browser-sync": "^2.11.0",
+    "derequire": "^2.0.3",
+    "jspm": "0.17.0-beta.32",
+    "node-static": "^0.7.7",
+    "standard-version": "^4.0.0",
+    "tsconfig-glob": "^0.2.1",
+    "typedoc": "^0.5.7",
+    "typescript": "^2.2.1",
+    "typescript-formatter": "^2.3.0",
+    "uglify-js": "^3.0.13"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "77ef6def91b6f9fc1018ef7ebd2ef1fc6fdfb5cb",
+    "tarball": "https://registry.npmjs.org/@argonjs/argon/-/argon-1.3.6.tgz"
+  },
+  "gitHead": "46208260b1eda04703e48d9ddbc39bcf76b5cd7b",
+  "homepage": "https://github.com/argonjs/argon#readme",
+  "jspm": {
+    "format": "esm",
+    "jspmPackage": true,
+    "main": "src/argon.js",
+    "dependencies": {
+      "cesium": "github:aelatgt/cesium@referenceFrames",
+      "aurelia-dependency-injection": "npm:aurelia-dependency-injection@^1.2.0",
+      "aurelia-polyfills": "npm:aurelia-polyfills@^1.0.0-beta.1.0.0",
+      "googlevr/webvr-polyfill": "github:googlevr/webvr-polyfill@0.9.27",
+      "json": "github:systemjs/plugin-json@^0.2.3",
+      "mobile-detect": "npm:mobile-detect@^1.3.2",
+      "object-assign": "npm:object-assign@^4.1.0"
+    },
+    "devDependencies": {
+      "buffer": "npm:jspm-nodelibs-buffer@^0.2.0",
+      "chai": "npm:chai@^3.5.0",
+      "child_process": "npm:jspm-nodelibs-child_process@^0.2.0",
+      "constants": "npm:jspm-nodelibs-constants@^0.2.0",
+      "crypto": "npm:jspm-nodelibs-crypto@^0.2.0",
+      "css": "github:systemjs/plugin-css@^0.1.19",
+      "diff": "npm:diff@^3.2.0",
+      "events": "npm:jspm-nodelibs-events@^0.2.0",
+      "fs": "npm:jspm-nodelibs-fs@^0.2.0",
+      "mocha": "npm:mocha@^3.2.0",
+      "module": "npm:jspm-nodelibs-module@^0.2.0",
+      "net": "npm:jspm-nodelibs-net@^0.2.0",
+      "os": "npm:jspm-nodelibs-os@^0.2.0",
+      "path": "npm:jspm-nodelibs-path@^0.2.0",
+      "process": "npm:jspm-nodelibs-process@^0.2.0",
+      "stream": "npm:jspm-nodelibs-stream@^0.2.0",
+      "string_decoder": "npm:jspm-nodelibs-string_decoder@^0.2.0",
+      "ts": "github:frankwallis/plugin-typescript@^5.3.3",
+      "typescript": "npm:typescript@^2.2.1",
+      "util": "npm:jspm-nodelibs-util@^0.2.0",
+      "vm": "npm:jspm-nodelibs-vm@^0.2.0"
+    },
+    "peerDependencies": {
+      "assert": "npm:jspm-nodelibs-assert@^0.2.0",
+      "aurelia-metadata": "npm:aurelia-metadata@^1.0.0",
+      "aurelia-pal": "npm:aurelia-pal@^1.0.0"
+    },
+    "overrides": {
+      "npm:aurelia-dependency-injection@1.2.0": {
+        "main": "dist/native-modules/aurelia-dependency-injection.js",
+        "directories": null,
+        "format": "esm"
+      },
+      "npm:aurelia-metadata@1.0.2": {
+        "main": "dist/native-modules/aurelia-metadata.js",
+        "directories": null,
+        "format": "esm"
+      },
+      "npm:aurelia-pal@1.0.0": {
+        "main": "dist/native-modules/aurelia-pal.js",
+        "directories": null,
+        "format": "esm"
+      },
+      "npm:chai@3.5.0": {
+        "main": "index.js",
+        "format": "cjs",
+        "jspmPackage": true,
+        "meta": {
+          "*": {
+            "globals": {
+              "process": "process"
+            }
+          },
+          "*.json": {
+            "format": "json"
+          },
+          "chai.js": {
+            "cjsRequireDetection": false
+          }
+        },
+        "map": {
+          "./lib/chai/utils": "./lib/chai/utils/index.js",
+          "process": "@empty"
+        }
+      },
+      "npm:debug@2.6.0": {
+        "main": "src/browser.js",
+        "jspmNodeConversion": false,
+        "format": "cjs",
+        "map": {
+          "fs": "@empty",
+          "net": "@empty",
+          "tty": "@empty",
+          "util": "@empty"
+        }
+      },
+      "npm:deep-eql@0.1.3": {
+        "main": "index.js",
+        "format": "cjs",
+        "meta": {
+          "*.json": {
+            "format": "json"
+          }
+        },
+        "map": {
+          "buffer": "@empty"
+        }
+      },
+      "npm:inherits@2.0.3": {
+        "ignore": [
+          "test.js"
+        ]
+      },
+      "npm:mobile-detect@1.3.2": {
+        "format": "cjs",
+        "jspmPackage": true,
+        "map": {}
+      },
+      "github:aelatgt/cesium@referenceFrames": {
+        "registry": "github",
+        "dependencies": {},
+        "map": {
+          "./Source/DataSources/BillboardGraphics": "@empty",
+          "./Source/DataSources/BoxGraphics": "@empty",
+          "./Source/DataSources/CorridorGraphics": "@empty",
+          "./Source/DataSources/CylinderGraphics": "@empty",
+          "./Source/DataSources/EllipseGraphics": "@empty",
+          "./Source/DataSources/EllipsoidGraphics": "@empty",
+          "./Source/DataSources/LabelGraphics": "@empty",
+          "./Source/DataSources/ModelGraphics": "@empty",
+          "./Source/DataSources/PathGraphics": "@empty",
+          "./Source/DataSources/PointGraphics": "@empty",
+          "./Source/DataSources/PolygonGraphics": "@empty",
+          "./Source/DataSources/PolylineGraphics": "@empty",
+          "./Source/DataSources/PolylineVolumeGraphics": "@empty",
+          "./Source/DataSources/RectangleGraphics": "@empty",
+          "./Source/DataSources/WallGraphics": "@empty"
+        }
+      },
+      "npm:mocha@3.2.0": {
+        "main": "./mocha.js",
+        "jspmNodeConversion": false,
+        "meta": {
+          "mocha.js": {
+            "deps": [
+              "./mocha.css!"
+            ],
+            "exports": "Mocha",
+            "format": "global"
+          }
+        },
+        "dependencies": {
+          "css": "*",
+          "debug": "^2.2.0",
+          "json3": "npm:json3@3.3.2",
+          "lodash.create": "npm:lodash.create@3.1.1"
+        },
+        "registry": "jspm",
+        "map": {
+          "./mocha.js": {
+            "node": "./lib/mocha.js"
+          },
+          "escape-string-regexp": "@empty",
+          "growl": "@empty",
+          "./lib/reporters.js": "./lib/reporters/index.js",
+          "./lib/interfaces.js": "./lib/interfaces/index.js",
+          "./lib/to-iso-string.js": "./lib/to-iso-string/index.js",
+          "glob": "@empty",
+          "mkdirp": "@empty",
+          "jade": "@empty",
+          "supports-color": "@empty",
+          "path": "@node/path",
+          "fs": "@node/fs",
+          "util": "@node/util",
+          "events": "@node/events",
+          "tty": "@node/tty"
+        }
+      },
+      "npm:ms@0.7.2": {
+        "jspmNodeConversion": false,
+        "format": "cjs"
+      },
+      "npm:typescript@2.1.4": {
+        "browser": {},
+        "map": {
+          "buffer": "@empty",
+          "child_process": "@empty",
+          "fs": "@empty",
+          "path": "@empty",
+          "process": "@empty",
+          "readline": "@empty"
+        },
+        "dependencies": {
+          "source-map-support": "*"
+        }
+      },
+      "npm:typescript@2.2.1": {
+        "browser": {},
+        "map": {
+          "buffer": "@empty",
+          "child_process": "@empty",
+          "fs": "@empty",
+          "path": "@empty",
+          "process": "@empty",
+          "readline": "@empty"
+        },
+        "dependencies": {
+          "source-map-support": "*"
+        }
+      }
+    }
+  },
+  "license": "Apache-2.0",
+  "main": "dist/argon.core.js",
+  "maintainers": [
+    {
+      "name": "argonjs-bot",
+      "email": "blair@argonjs.io"
+    },
+    {
+      "name": "speigg",
+      "email": "gheric.speiginer@gmail.com"
+    },
+    {
+      "name": "kimsiva",
+      "email": "kspreen@gmail.com"
+    },
+    {
+      "name": "bionictk",
+      "email": "bionictk@gmail.com"
+    },
+    {
+      "name": "blairmacintyre",
+      "email": "blair@macmynatt.com"
+    }
+  ],
+  "name": "@argonjs/argon",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/argonjs/argon.git"
+  },
+  "scripts": {
+    "begin-release": "[[ -z $(git status --porcelain) ]] && npm run tsc",
+    "browser-sync": "browser-sync  start --server --directory --startPath \"index.html\" --files \"src/**\"",
+    "build": "uglifyjs dist/argon.js -m -c -o dist/argon.min.js",
+    "build:browser": "jspm build src/argon.ts .tmp/argon-build.js --format umd --global-name Argon --skip-source-maps && derequire .tmp/argon-build.js > dist/argon.js",
+    "build:core": "jspm build src/argon.ts .tmp/argon-build.js --node --format umd --global-name Argon --skip-source-maps && derequire .tmp/argon-build.js > dist/argon.core.js",
+    "finish-release": "npm run build && git add -u && git commit -m 'chore(build): Update build' && git push && git push --tags",
+    "format": "tsfmt -r",
+    "postinstall": "npm install types/cesium types/mobile-detect",
+    "postversion": "git push && git push --tags",
+    "prebuild": "npm run build:core && npm run build:browser",
+    "preversion": "[[ -z $(git status --porcelain) ]]",
+    "release:latest": "npm run begin-release && standard-version -a && npm run finish-release && npm publish --tag latest",
+    "release:next": "npm run begin-release && standard-version -a --prerelease && npm run finish-release && npm publish --tag next",
+    "static": "static -p 3000",
+    "test": "jspm run test/runner.js",
+    "tsc": "tsc",
+    "typedoc": "typedoc --tsconfig tsconfig.build.json --out docs --mode file --gaID UA-63191442-2 --name argon.js --readme src/README.md --target ES6 --module commonjs --moduleResolution node --experimentalDecorators --includeDeclarations --excludeNotExported --excludeExternals --ignoreCompilerErrors src",
+    "version": "npm run tsc && npm run build && git add -u"
+  },
+  "typings": "index.d.ts",
+  "version": "1.3.6"
+}

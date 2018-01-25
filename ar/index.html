@@ -1,0 +1,45 @@
+---
+---
+<html>
+<head>
+    <title>GLAMORY</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  	<meta name="keywords" content="{{ site.keywords }}">
+    <!-- Origin Trial Token, feature = WebVR, origin = https://argonjs.io, expires = 2017-06-06 -->
+    <meta http-equiv="origin-trial" data-feature="WebVR" data-expires="2017-06-06" content="ArfXzMSluPfAfoVDD+ne9oWykUyDeLFD/z4/0uRCdZ1491aSrytWyj7gnGhwK1/Tzg/D+UOvNgD2+L9PWqF5XwwAAABceyJvcmlnaW4iOiJodHRwczovL2FyZ29uanMuaW86NDQzIiwiZmVhdHVyZSI6IldlYlZSIiwiZXhwaXJ5IjoxNDk2NzcxODA0LCJpc1N1YmRvbWFpbiI6dHJ1ZX0=">
+    <script src="resources/lib/three/three.min.js"></script>
+    <!--<script src="{{ site.argonjs }}"></script>-->
+    <script src="resources/lib/@argonjs/argon/dist/argon.js"></script>
+    <script src="resources/lib/CSS3DArgonHUD.js"></script>
+    <script src="resources/lib/ArgonSunMoon.js"></script>
+    <script src="resources/lib/stats.min.js"></script>
+  	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+  <body>
+    <div id="crosshair-wrapper">
+      <img src="crosshair_small.png" class="crosshair"/>
+    </div>
+    <div id="argon">
+			<div id="hud" style="pointer-events:auto">
+				<div id="menu">
+					<button id="controls">Click to disable crosshair</button>
+				</div>
+			</div>
+      <div onclick="hideMe(this)" id="description">
+        <h2>Demo of POL Airdrop</h2>
+        <h5>(click to dismiss)</h5>
+        <p>Visit event tagged location to collect free incetivised airdrops for your participation by clicking and collecting <br> Please have MetaMask Open on your phone </p>
+      </div>
+        <div>
+            <img style="margin-top: 10px; margin-left: 10px" src="img/logo.png">
+        </div>
+    </div>
+  </body>
+	<script>
+		function hideMe(elem) {
+		    elem.style.display = 'none';
+		}	
+	</script>
+  <script src="app.js"></script>
+</html>
